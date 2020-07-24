@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 1440px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: gray;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+    height: 100px;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0 auto;
+}
+
+nav li {
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+nav li:hover {
+    background-color: lightgray;
+}
+
+.input-field {
+    width: 100%;
+ }
+
+ .fa-search {
+     margin: 5px 10px;
+     position: absolute;
+     color: darkgray;
+ }
+
+ .input {
+     width: 100%;
+     text-align: center;
+     font-size: large;
+ }
+
+
