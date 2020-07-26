@@ -10,8 +10,6 @@ body {
     padding: 25px;
 }
 
-
-
 .white {
     color: white;
 }
@@ -168,7 +166,7 @@ nav li:hover {
     flex-direction: column;
 }
 
-.main-articles > * {
+.main-articles>* {
     padding: 20px 20px;
     line-height: 40px;
 }
@@ -189,6 +187,7 @@ nav li:hover {
 .article-date {
     color: rgb(102, 101, 101);
     font-size: larger;
+    text-align: start;
 }
 
 .bolder {
@@ -315,7 +314,7 @@ nav li:hover {
 
 .week {
     display: flex;
-    margin: 80px 40px;
+    margin: 50px 40px;
 }
 
 .week > img {
