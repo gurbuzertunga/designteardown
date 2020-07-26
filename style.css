@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: mija;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 25px;
 }
 
@@ -60,7 +60,7 @@ nav li:hover {
 /* ********************************************************************************** */
 
 .latest-posts {
-    transform: rotate(90deg); 
+    transform: rotate(90deg);
     font-size: larger;
     font-weight: bolder;
     position: absolute;
@@ -162,13 +162,16 @@ nav li:hover {
     flex-direction: column;
 }
 
-.main-articles > * {
+.main-articles>* {
     padding: 20px 20px;
     line-height: 40px;
 }
 
 .main-articles:hover {
-    transform: scale(1.02); background-color: #fff; box-shadow: 0 0 40px rgba(0, 0, 0, 0.15); transition: all 0.3s; 
+    transform: scale(1.02);
+    background-color: #fff;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s;
 }
 
 .article-header {
@@ -199,4 +202,60 @@ nav li:hover {
 
 .article-arrow:hover {
     background-color: darkgray;
+}
+
+/* ***************************** Login-article ************************ */
+.login-article {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    grid-gap: 10px;
+}
+
+.login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #a9a9a9;
+    width: 100%;
+    border-radius: 5%;
+}
+
+.login-image {
+    height: 350px;
+    margin-top: 50px;
+}
+
+.login-h3 {
+    font-weight: bolder;
+    font-size: 44px;
+    color: white;
+    margin-top: 50px;
+}
+
+.login-p {
+    padding-top: 40px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.login-p2 {
+    color: #000;
+    padding: 20px 90px;
+    background-color: #e4e1e1;
+    margin-top: 40px;
+    border-radius: 8%;
+    font-weight: 900;
+}
+
+.login-link {
+    color: #808080;
+    padding-left: 3px;
+    font-weight: bolder;
+}
+
+.login-p3 {
+    color: #fff;
+    font-weight: bolder;
+    margin-top: 100px;
 }
