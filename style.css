@@ -7,7 +7,7 @@
 
 body {
     /* font-family: Georgia, 'Times New Roman', Times, serif; */
-    padding: 25px;
+    font-family: "Patua One", cursive;
 }
 
 .white {
@@ -50,15 +50,19 @@ nav li:hover {
 }
 
 .fa-search {
-    margin: 5px 10px;
+    margin: 15px 10px;
     position: absolute;
     color: darkgray;
 }
 
 .input {
     width: 100%;
-    text-align: center;
-    font-size: large;
+    padding: 15px 30px;
+    text-align: baseline;
+    font-size: x-large;
+    font-weight: bolder;
+    border-radius: 10px;
+    border-style: none;
 }
 
 /* ********************************************************************************** */
@@ -269,7 +273,7 @@ nav li:hover {
 
 .more-articles {
     width: fit-content;
-    margin: -5px auto;
+    margin: 50px auto;
     font-weight: bolder;
     border-bottom: solid 3px #808080;
     /* line-height: 3em; */
@@ -465,6 +469,97 @@ nav li:hover {
 
 .placeholder-img:hover {
     transform: rotate(0deg);
-    transition: 0.4s;
-    transform-origin: left;
+    transition: 0.4s; 
 }
+
+.guide-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 30px;
+
+}
+
+.guides {
+    width: 45%;
+    background-color: #d3d3d3;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.guides h6 {
+    font-size: 12px;
+    font-weight: lighter;
+    color: #333333;
+    padding: 20px 0;
+}
+
+.guides h1 {
+    font-weight: bolder;
+    font-size: 45px;
+    padding: 20px 0;
+    color: #333333;
+}
+
+.guides p {
+    color: #a9a9a9;
+    padding: 25px 0;
+}
+
+.guides button {
+    font-size: 25px;
+    padding: 30px;
+    border-style: none;
+    color: #333333;
+    font-weight: bolder;
+    background-color: #a9a9a9;
+}
+
+footer {
+    background-color: #d3d3d3;
+    margin-top: 100px;
+
+}
+
+.footer-container1 {
+    text-align: center;
+    padding: 50px;
+}
+
+.footer-container1 h3 {
+    font-weight: 900;
+    font-size: 22px;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.footer-container1  ul, .footer-container3 ul{
+    display: flex;
+    justify-content: center;
+    color: #80828c;
+}
+
+.footer-container1  ul li, .footer-container3 ul li {
+    padding: 10px 25px;
+}
+
+.footer-container2 {
+    width: 30%;
+    margin: 20px auto;
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.footer-container3 {
+    width: 40%;
+    margin: 20px auto;
+    text-align: center;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
