@@ -452,7 +452,7 @@ nav li:hover {
   filter: grayscale();
   box-shadow: 0 0 40px #000;
   transform: rotate(-20deg);
-  transform-origin: 0 100%; 
+  transform-origin: 0 100%;
 }
 
 .placeholder-img:hover {
